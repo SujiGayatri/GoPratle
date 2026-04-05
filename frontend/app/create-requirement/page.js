@@ -17,7 +17,7 @@ export default function CreateRequirement() {
     try {
       setLoading(true);
 
-      const res = await fetch("http://localhost:5000/api/requirements", {
+      const res = await fetch("https://gopratle-9gwe.onrender.com/api/requirements", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
