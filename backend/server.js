@@ -15,3 +15,6 @@ const requirementRoutes = require("./routes/requirementRoutes");
 app.use("/api/requirements", requirementRoutes);
 
 app.listen(5000, () => console.log("Server running on port 5000"));
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully");
+});
