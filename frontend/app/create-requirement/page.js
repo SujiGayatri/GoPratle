@@ -46,12 +46,12 @@ export default function CreateRequirement() {
         Post Your Requirement
       </h2>
 
-      {/* ✅ SUCCESS SCREEN */}
+      {/* SUCCESS SCREEN */}
       {submitted ? (
         <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-2xl border border-gray-100 text-center">
           
           <h2 className="text-2xl font-bold text-green-600 mb-4">
-            ✅ Requirement Submitted!
+            Requirement Submitted!
           </h2>
 
           <p className="text-gray-600 mb-6">
@@ -72,7 +72,7 @@ export default function CreateRequirement() {
         </div>
       ) : (
 
-        /* ✅ FORM FLOW */
+        /* FORM FLOW */
         <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-2xl border border-gray-100">
 
           {step === 1 && (

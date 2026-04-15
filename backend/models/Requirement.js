@@ -28,7 +28,7 @@ const requirementSchema = new mongoose.Schema({
   hiringType: {
     type: String,
     required: true,
-    enum: ["planner", "performer", "crew"], // restrict values
+    enum: ["planner", "performer", "crew"], 
   },
   details: {
     type: Object,
